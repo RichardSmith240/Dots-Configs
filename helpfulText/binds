@@ -1,0 +1,58 @@
+Welcome to the "IDK what the fuck i pressed" and "IDK what to press" Help Center.
+
+You got here by pressing SUPER (The Windows key) + G.
+
+Here you can see all the custom key binds for the BigBrainPad as well as some helpful commands for the terminal.
+
+**Key Binds**
+
+Basic Applications:
+SUPER + ENTER = Open Terminal
+SUPER + F = Open File Manager
+SUPER + SPACE = Launch Apps (App Menu)
+SUPER + SHIFT + Q = Quit App
+
+Window Management:
+SUPER + V = Toggle App Floating
+SUPER + O = Toggle App Split
+SUPER + SHIFT + F = Toggle App Fullscreen
+SUPER + P = Lock Computer
+CTRL + ALT + DELETE = Exit Environment
+SUPER + (HJKL) = Move Window Focus
+SUPER + SHIFT + (HJKL) = Move Focus Window
+
+Workspace Management:
+SUPER + ARROW (← or →) = Change to Adjacent Workspace
+SUPER + Number (1, 2, 3, ... 0) = Change to Specific Workspace
+
+Menus:
+SUPER + SHIFT + P = Power menu
+SUPER + SHIFT + S = Screenshot Menu
+SUPER + C = Clipboard History
+SUPER + PERIOD (.) = Emoji Selector
+SUPER + M = Theme Selector
+SUPER + W = Wallpaper Menu
+SUPER + SHIFT + W = Random Wallpaper
+
+Terminal: 
+clear = Clears Terminal
+ls = Lists Files and Directories at the Current Location
+nvim / vim + <file name> = Opens a Text Editor (NeoVim)
+file = Opens a Terminal Based File Manager
+btop = Opens Task Manage
+yay = Total System Applications Update/Upgrade
+yay -S <package name> = Download/Install an Application/Package
+yay -R <package name> = Remove/Uninstall an Application/Package
+tree = Lists All Directories and Sub-Directories in Current Location
+shutdown = Power off the Computer/Device
+reboot = Restart Computer/Device
+neofetch = Displays System Information
+exit = Will exit Terminal
+
+NeoVim:
+:q = Quit NeoVim
+:w = Save Work
+:Lazy = Enters LazyVim UI (Plugin Manager)
+:Mason = Enters Mason UI (LSP Manager)
+:LspInstall <Language> = Install a Programming Language Server
+:help = Shows a Basic Guide to NeoVim Tools and Documention 
