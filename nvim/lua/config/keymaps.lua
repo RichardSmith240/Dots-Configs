@@ -17,3 +17,6 @@ vim.keymap.set('n', '<leader>ds', vim.diagnostic.open_float)
 
 -- copilot
 vim.keymap.set('n', '<leader>cc', vim.cmd.CopilotChatToggle)
+
+-- vim wiki
+vim.keymap.set('n', '<leader>ww', "<cmd>VimwikiIndex<cr>", { noremap = true, silent = true, desc = "Open Vimwiki Index" })
